@@ -1,0 +1,9 @@
+build/
+.gradle/
+.idea/
+build/
+*.mp4
+*.mov
+*.ts
+*.mkv
+*.flv
