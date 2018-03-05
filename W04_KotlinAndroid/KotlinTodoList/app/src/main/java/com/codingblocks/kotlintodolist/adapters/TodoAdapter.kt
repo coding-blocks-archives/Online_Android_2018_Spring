@@ -30,6 +30,6 @@ class TodoAdapter (
     }
 
     class TodoViewHolder(val item: View) : RecyclerView.ViewHolder(item) {
-        val tvTodoTask = item.findViewById<TextView>(R.id.tvTodoTask)
+        val tvTodoTask: TextView = item.findViewById(R.id.tvTodoTask)
     }
 }
